@@ -1,0 +1,177 @@
+    /*css*/
+* {
+box-sizing: border-box;
+}
+body {
+margin: 0;
+padding: 0;
+font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+background-color: #ffffff;
+}
+    /*header*/
+header {
+padding: 30px 4% 10px;
+position: fixed;
+top: 0;
+width: 100%;
+background-color: #00FFFF;
+display: flex;
+align-items: center;
+}
+h1 {
+margin: 0; padding: 0;
+font-size: 20px;
+}
+a {	
+text-decoration: none;
+color: #4b4b4b;
+}
+nav {
+margin: 0 0 0 auto;
+}
+ul {
+list-style: none;
+margin: 0;
+display: flex;
+}
+li {
+margin: 0 0 0 15px;
+font-size: 14px;
+}
+
+    /*画像*/
+.img{
+width: 100%;
+height: 700px;
+object-fit: cover;
+}
+
+    /*skills*/
+.skills{
+padding-top: 100px;
+margin-top:-100px;
+}
+.skills > h2{
+text-align: center;
+}
+.skills > h5{
+text-align: center;
+}
+.skills > p{
+width: 35%;
+margin: 0 auto;
+}
+
+    /*portfolio*/
+.portfolio {
+text-align: center;
+padding-top: 100px;
+margin-top:-100px;
+}
+.work-name1 > img{
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    box-shadow: 5px 10px 20px rgba(0,0,0,0.25);
+}
+.work-name1{
+    width: 50%;
+margin-left: 150px;
+}
+.work-name2 > img{
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    box-shadow: 5px 10px 20px rgba(0,0,0,0.25);
+}
+.work-name2{
+    width: 50%;
+    margin-right: 150px;
+    margin-bottom: 50px;
+}
+.work-nametest{
+display: flex;
+text-align: center;
+padding: 50px;
+}
+    /*about*/
+.about{
+text-align: center;
+padding-top: 100px;
+margin-top:-100px;
+}
+
+.about img{
+    width: 90%;
+    padding: 30px;
+    margin: 0 auto;
+    float: left;
+    
+}
+.work-name3{
+width: 50%;
+margin-left: 220px;
+}
+.about .work-name4{
+width: 50%;
+margin-right: 150px;
+margin-bottom: 50px;
+text-align: left;
+}
+.work-nametest1{
+display: flex;
+text-align: center;
+padding: 50px;
+}
+
+    /*profile*/
+.profile {
+width: 500px;
+margin: 0 auto;
+padding-top: 100px;
+margin-top:-100px;
+margin-bottom: 100px;
+}
+.profile p {
+    padding: 0.5em 1em;
+    margin: 20% 0;
+    color: #FFF;
+    background: #6eb7ff;
+    border-bottom: solid 6px #3f87ce;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+}
+.profile > h2{
+text-align: center;
+}
+    /*contact*/
+.contact {
+height: 250px;
+text-align: center;
+}
+.seotext_01 {
+    text-decoration:underline;/*下線を引く*/
+    text-decoration-color:#FF0000;/*下線を赤色*/
+}
+section{
+width: 100%;
+padding: 50px 0;
+}
+
+section:nth-last-of-type(1){background: linear-gradient(whitesmoke, #00FFFF )}
+section:nth-last-of-type(2){background-color: whitesmoke;}
+section:nth-last-of-type(3){background-color: white;}
+section:nth-last-of-type(4){background-color: whitesmoke;}
+section:nth-last-of-type(5){background-color: white;}
+
+    /*footer*/
+footer {
+width: 100%;
+height: 90px; 
+text-align: center;
+padding:  20px 0;
+background-color: #00FFFF;
+}
+.footer-text {
+color: #fff;
+}
