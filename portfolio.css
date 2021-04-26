@@ -14,7 +14,7 @@ padding: 30px 4% 10px;
 position: fixed;
 top: 0;
 width: 100%;
-background-color: #00FFFF;
+background-color: #222222;
 display: flex;
 align-items: center;
 }
@@ -24,7 +24,7 @@ font-size: 20px;
 }
 a {	
 text-decoration: none;
-color: #4b4b4b;
+color: white;
 }
 nav {
 margin: 0 0 0 auto;
@@ -133,8 +133,8 @@ margin-top:-100px;
 margin-bottom: 100px;
 }
 .profile p {
-    padding: 0.5em 1em;
-    margin: 20% 0;
+padding: 0.5em 1em;
+margin: 20% 0;
     color: #FFF;
     background: #6eb7ff;
     border-bottom: solid 6px #3f87ce;
@@ -148,7 +148,16 @@ text-align: center;
 .contact {
 height: 250px;
 text-align: center;
+padding-top: 100px;
+margin-top:-100px;
 }
+
+.img2{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    }
+
 .seotext_01 {
     text-decoration:underline;/*下線を引く*/
     text-decoration-color:#FF0000;/*下線を赤色*/
@@ -158,7 +167,7 @@ width: 100%;
 padding: 50px 0;
 }
 
-section:nth-last-of-type(1){background: linear-gradient(whitesmoke, #00FFFF )}
+section:nth-last-of-type(1){background-color: white;}
 section:nth-last-of-type(2){background-color: whitesmoke;}
 section:nth-last-of-type(3){background-color: white;}
 section:nth-last-of-type(4){background-color: whitesmoke;}
@@ -170,7 +179,7 @@ width: 100%;
 height: 90px; 
 text-align: center;
 padding:  20px 0;
-background-color: #00FFFF;
+background-color: white;
 }
 .footer-text {
 color: #fff;
